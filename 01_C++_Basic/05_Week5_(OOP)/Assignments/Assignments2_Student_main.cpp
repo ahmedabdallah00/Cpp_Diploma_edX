@@ -89,19 +89,19 @@ public:
         if(*grades < 50) {
             cout << "Grade : F" << endl;
         } 
-        else if(*grades < 60 && *grades >= 50) {
+        else if(*grades < 60) {
             cout << "Grade : D" << endl;
         }
-        else if(*grades < 65 && *grades >= 75) {
+        else if(*grades < 65) {
             cout << "Grade : C" << endl;
         }
-        else if(*grades < 75 && *grades >= 85) {
+        else if(*grades < 75 ) {
             cout << "Grade : B" << endl;
         }
-        else if(*grades < 85 && *grades >= 95) {
+        else if(*grades < 85) {
             cout << "Grade : A" << endl;
         }
-        else if(*grades < 95 && *grades >= 100) {
+        else if(*grades < 95 ) {
             cout << "Grade : A+" << endl;
         }
         
